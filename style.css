@@ -1,0 +1,196 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column ;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 16px;
+    
+    
+}
+.hero-top{
+    display: flex;
+    justify-content: space-around;
+    color: #F9FAF8;
+    margin-bottom: 52px;
+}
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+}
+  
+li {
+    display: inline-block;
+    margin: 0px 20px;
+    
+}
+.hero-bottom{
+   
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 52px;
+    
+
+}
+.hero-logo{
+    font-size: 24px;
+}
+.hero-main{
+    
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+    color: #F9FAF8;
+}
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-text
+{
+    font-size: 18px;
+    margin-bottom: 12px;
+   
+}
+.hero-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 16px;
+}
+.hero-image{
+    margin-right: 60px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info-images{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+    margin-bottom: 52px;
+    
+}
+.image img {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.image{
+    margin-left: 24px;
+    text-align: center;
+    padding: 24px;
+}
+.info-title{
+    margin: 24px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.quotes{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.quotes-text{
+    margin-top: 60px;
+    text-align: justify;
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+    align-self: center;
+}   
+.thor{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self:flex-end;
+    margin-bottom: 60px;
+    align-self: flex-end; 
+    margin-right: calc((100vw - 800px) / 2); 
+   
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+}
+
+.action {
+    background-color: #3882F6; /* Blue background */
+    color: #F9FAF8; /* White text */
+    padding: 32px; /* Add space inside the blue box */
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between text and button */
+    align-items: center; /* Center-align text and button vertically */
+    border-radius: 8px; /* Optional: rounded corners */
+    gap: 16px; /* Add some gap if necessary */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.action .left {
+    display: flex; /* Flexbox for the text block */
+    flex-direction: column; /* Stack text lines vertically */
+    gap: 8px; /* Add spacing between the two lines */
+}
+
+.action .header {
+    font-size: 24px; /* Larger font for the header */
+    font-weight: 900; /* Bold font */
+    margin: 0; /* Remove extra margins */
+}
+
+.action .text {
+    font-size: 18px; /* Smaller font for the description */
+    line-height: 1.5; /* Add some line spacing */
+    margin: 0; /* Remove default margin */
+}
+
+.action .button {
+    background-color:#3882F6; /* White button */ 
+    color:#F9FAF8; /* Blue text */
+    border-color: #F9FAF8; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 12px 24px; /* Add padding inside the button */
+    font-size: 18px; /* Button text size */
+    font-weight: bold; /* Make button text bold */
+    cursor: pointer; /* Pointer cursor for hover */
+    white-space: nowrap; /* Prevent text from wrapping inside the button */
+}
